@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Terms of Service – PNWPS Poker Results</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Terms of Service for the PNWPS Poker Results app.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <div class="site-inner">
+      <header class="site-header">
+        <div class="brand">
+          <div class="brand-logo">
+            <img src="assets/logo.png" alt="PNWPS logo">
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">PNWPS</span>
+            <span class="brand-tagline">Poker Results App</span>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html" class="active">Terms</a>
+        </nav>
+      </header>
+
+      <main class="main-card">
+        <h1 class="legal-title">Terms of Service</h1>
+        <p class="legal-updated">Last updated: <span id="updated-date">August 2025</span></p>
+
+        <section class="legal-section">
+          <h2>1. Agreement to terms</h2>
+          <p>
+            By using the PNWPS Poker Results app (“the app”), you agree to be bound by these Terms
+            of Service. If you do not agree to these terms, do not use the app.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h2>2. Purpose of the app</h2>
+          <p>
+            The app is designed for a private home poker league to track seasons, games, and
+            standings. It is not a real-money gambling platform, and it does not handle wagers,
+            deposits, or payouts of any kind.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h2>3. Eligibility</h2>
+          <p>
+            The app is intended for adult members of the PNWPS poker league who have been given
+            access by the organizer. By using the app, you represent that you are legally allowed
+            to participate in your local home poker games and that you are not prohibited from
+            using such tools by any applicable laws.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h2>4. Google account and access</h2>
+          <p>
+            The app uses Google Sign-In to authenticate users and the Google Sheets API to read
+            and write league data. You are responsible for maintaining the security of your
+            Google account and for any actions taken using your account within the app.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h2>5. League data</h2>
+          <p>
+            Game results, player names, and other league information recorded through the app are
+            stored in a single Google Sheets document. The league organizer controls access to this
+            document. By using the app, you understand that your name and game results may be
+            visible to other league members with access to that sheet.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h2>6. No guarantees and limitation of liability</h2>
+          <p>
+            The app is provided on an “as is” and “as available” basis. We do not guarantee that
+            the app will be error-free, available at all times, or that data will never be lost.
+          </p>
+          <p>
+            To the fullest extent permitted by law, we are not liable for any indirect, incidental,
+            special, consequential, or punitive damages arising from your use of the app, including
+            but not limited to loss of data or league standings.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h2>7. Acceptable use</h2>
+          <p>You agree not to:</p>
+          <ul>
+            <li>Use the app for any unlawful purpose.</li>
+            <li>Attempt to gain unauthorized access to the underlying Google Sheets document.</li>
+            <li>Reverse engineer, interfere with, or disrupt the operation of the app.</li>
+          </ul>
+        </section>
+
+        <section class="legal-section">
+          <h2>8. Changes to the app or these terms</h2>
+          <p>
+            We may modify or discontinue the app at any time. We may also update these Terms of
+            Service from time to time. When we do, we will update the “Last updated” date at the
+            top of this page. Continued use of the app after changes are posted constitutes your
+            acceptance of the revised terms.
+          </p>
+        </section>
+
+        <section class="legal-section">
+          <h2>9. Contact</h2>
+          <p>
+            If you have questions about these Terms or how the app is used in your league, please
+            contact the PNWPS league organizer.
+          </p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        © <span id="year"></span> PNWPS Poker Results. All rights reserved.
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
