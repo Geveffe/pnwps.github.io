@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Privacy Policy – Owe Boy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the Owe Boy expense-splitting app.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <img src="assets/logo.png" alt="Owe Boy logo">
+      <div>
+        <span class="brand-name">Owe Boy</span>
+        <span class="brand-tagline">Split expenses with friends</span>
+      </div>
+      <nav class="nav-links">
+        <a href="support.html">Support</a>
+        <a href="privacy.html" class="active">Privacy</a>
+      </nav>
+    </header>
+
+    <main class="card">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: September 2026</p>
+
+      <section>
+        <h2>1. Overview</h2>
+        <p>
+          Owe Boy (&ldquo;the app&rdquo;) is an iOS app that helps groups of friends track shared
+          expenses and figure out who owes whom. This policy explains what information the app
+          collects, how it&rsquo;s used, and who can see it.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Information we collect</h2>
+        <ul>
+          <li>
+            <strong>Account information</strong>: your display name and email address, provided
+            when you create an account. Your password is handled entirely by Firebase
+            Authentication (Google) &mdash; Owe Boy never sees or stores your raw or hashed
+            password itself.
+          </li>
+          <li>
+            <strong>Group and expense data</strong>: group names, group membership, expense
+            descriptions, amounts, dates, who paid, who owes, and any payments you record between
+            group members.
+          </li>
+        </ul>
+        <p>
+          Owe Boy does not collect your location, contacts, photos, or any advertising
+          identifiers, and does not include any analytics or advertising SDKs.
+        </p>
+      </section>
+
+      <section>
+        <h2>3. How we use your information</h2>
+        <ul>
+          <li>To create and authenticate your account.</li>
+          <li>To show you the groups, expenses, and balances you&rsquo;re part of.</li>
+          <li>To calculate who owes whom, and by how much, within a group.</li>
+        </ul>
+        <p>We do not sell your data, and we do not use it for advertising or marketing.</p>
+      </section>
+
+      <section>
+        <h2>4. Who can see your information</h2>
+        <p>
+          Your display name and email are visible to other members of any group you belong to
+          &mdash; this is necessary so people can add you to groups and see who they&rsquo;re
+          splitting expenses with. Expense and payment details for a group are only visible to
+          that group&rsquo;s members, enforced server-side, not just in the app itself.
+        </p>
+      </section>
+
+      <section>
+        <h2>5. Real money</h2>
+        <p>
+          Owe Boy does not move money. It only keeps a record of who paid for what and who owes
+          whom. Any &ldquo;payment&rdquo; recorded in the app is simply a note that a real-world
+          payment happened somewhere else (cash, a bank transfer, another app, etc.) &mdash; Owe
+          Boy has no access to your bank account, card, or any payment processor.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Data storage and security</h2>
+        <p>
+          Data is stored using Google Firebase (Firestore and Authentication) over encrypted
+          connections. Access to a group&rsquo;s data is restricted to that group&rsquo;s members
+          by server-side security rules. While we take reasonable steps to protect your data, no
+          system can be guaranteed 100% secure.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Data retention and deletion</h2>
+        <p>
+          Your information is retained for as long as your account exists. To request deletion of
+          your account and associated data, contact us using the email below &mdash; we&rsquo;ll
+          remove your account information and any expense or payment data tied to it.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Children&rsquo;s privacy</h2>
+        <p>
+          Owe Boy is not directed at, or knowingly used to collect information from, children
+          under 13.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Changes to this policy</h2>
+        <p>
+          If this policy changes, we&rsquo;ll update the &ldquo;Last updated&rdquo; date above.
+          Continued use of the app after a change means you accept the revised policy.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Contact</h2>
+        <div class="contact-box">
+          Questions about this policy or your data? Email
+          <a href="mailto:jeff_west@hotmail.com">jeff_west@hotmail.com</a>.
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; <span id="year"></span> Owe Boy</footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
