@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Privacy Policy – Toronto Poker Club</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the Toronto Poker Club app.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <img src="assets/logo.png" alt="Toronto Poker Club logo">
+      <div>
+        <span class="brand-name">Toronto Poker Club</span>
+        <span class="brand-tagline">Home poker league companion</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="rules.html">Rules</a>
+        <a href="privacy.html" class="active">Privacy</a>
+      </nav>
+    </header>
+
+    <main class="card">
+      <h1>Privacy Policy</h1>
+      <p class="lead">Last updated: October 4, 2026</p>
+
+      <h2>1. Overview</h2>
+      <p>
+        Toronto Poker Club (&ldquo;the app&rdquo;) is a private app used by members of a home poker
+        league to run a tournament timer and track game results and season standings. There are no
+        user accounts. Access is protected by a club passcode shared by the organizer.
+      </p>
+
+      <h2>2. Information the app stores</h2>
+      <ul>
+        <li><strong>League data:</strong> player names (as entered by league members), game dates,
+          buy-ins, eliminations, placements, chip and bonus totals, timer state, and any notes
+          members add about games or players.</li>
+        <li><strong>Notification tokens:</strong> if you allow notifications, a push token for your
+          device is stored so the app can send game alerts and update the Lock Screen Live
+          Activity.</li>
+      </ul>
+      <p>
+        The app does not collect your email address, phone number, contacts, photos, location,
+        payment information, or advertising identifiers, and it does not include analytics or
+        advertising SDKs.
+      </p>
+
+      <h2>3. How information is used</h2>
+      <ul>
+        <li>To show the timer, results, and standings to league members.</li>
+        <li>To send game notifications you&rsquo;ve opted into.</li>
+        <li>To generate optional humorous &ldquo;roasts&rdquo; when a player wins or is eliminated
+          (see below).</li>
+      </ul>
+      <p>We do not sell your data or use it for advertising, and we do not track you across other apps or websites.</p>
+
+      <h2>4. Service providers</h2>
+      <ul>
+        <li><strong>Google Firebase</strong> (Cloud Firestore, Cloud Functions, Cloud Messaging)
+          stores league data in Canada and delivers notifications.</li>
+        <li><strong>Apple Push Notification service</strong> delivers notifications and Live
+          Activity updates to iOS devices.</li>
+        <li><strong>Anthropic</strong> generates roasts. When one is requested, the player&rsquo;s
+          name, placement, game details, and any notes about that player are sent to
+          Anthropic&rsquo;s API to write the message. Anthropic does not use this data to train
+          its models.</li>
+        <li><strong>Google Cast</strong>: if you cast the timer to a TV, the app uses your local
+          network to find Chromecast devices. This stays on your local network.</li>
+      </ul>
+
+      <h2>5. Data retention and deletion</h2>
+      <p>
+        League history is kept for as long as the league keeps using the app. To have your name or
+        notes removed from past games or seasons, contact the organizer at the email below and it
+        will be removed.
+      </p>
+
+      <h2>6. Security</h2>
+      <p>
+        Data is sent over encrypted connections and stored with Google Firebase. Access requires
+        the club passcode, but no system is 100% secure, so please don&rsquo;t put sensitive
+        personal information in player names or notes.
+      </p>
+
+      <h2>7. Children</h2>
+      <p>The app is meant for adult members of a private poker league and is not directed to children.</p>
+
+      <h2>8. Changes</h2>
+      <p>If this policy changes, the &ldquo;Last updated&rdquo; date above will change too.</p>
+
+      <h2>9. Contact</h2>
+      <p>Questions or requests: <a href="mailto:jeff_west@hotmail.com">jeff_west@hotmail.com</a></p>
+    </main>
+
+    <footer>&copy; <span id="year">2026</span> Toronto Poker Club</footer>
+  </div>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
